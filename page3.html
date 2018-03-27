@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Olios</title>
+    <link href="../Bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/general.css">
+</head>
+<body>
+
+    <img src="img/logo.png" alt="logo" id="logo-menu" class="visible-xs">
+    
+    <div id="right-bar">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+
+    <div id="right-bar-hidden">
+        <div id="close-circle">
+            <i id="close" class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul>
+            <a href="page1.html"><li>living room</li></a>
+            <li>office</li>
+            <li>for kids</li>
+            <li>kitchen</li>
+            <li>accesories</li>
+            <li>show all categories</li>
+            <hr>
+        </ul>
+    </div>
+
+    <div id="left-bar-hidden" class="visible-xs">
+        <ul>
+            <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+            <li><a href="index.html"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a></li>
+            <li><a style="opacity: 1; color: #0033dd;" href="page3.html"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+            <li><a href="index.html"><i class="fa fa-arrow-down" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+
+    <div id="left-bar" class="hidden-xs">
+        <ul>
+            <li><img src="img/logo.png" alt=""></li>
+            <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+            <li><a href="index.html"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a></li>
+            <li><a style="opacity: 1; color: #0033dd;" href="page3.html"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+            <li><a href="index.html"><i class="fa fa-arrow-down" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+
+    <section id="page3_main-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-0 col-sm-2"></div>
+                <div class="col-xs-12 col-sm-8">
+                    <form id="page3_form"><input maxlength="15" placeholder="Search" type="text" id="page3_search-input"><i class="glyphicon glyphicon-remove" id="page3_delete-mark"></i></form>
+                </div>
+                <div class="col-xs-0 col-sm-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-xs-0 col-sm-2"></div>
+                <div class="col-xs-12 col-sm-8">
+                    <h5 id="search_title">Type product that you are looking for</h5>
+                </div>
+            </div>
+            <div class="row" id="results-row">
+                <div class="col-xs-0 col-sm-1"></div>
+                <div class="col-xs-12 col-sm-4">
+                    <h1 class="search_results">
+                        red seat
+                    </h1>
+                </div>
+                <div class="col-xs-0 col-sm-2"></div>
+                <div class="col-xs-12 col-sm-4">
+                    <h1 class="search_results">
+                        dark seat
+                    </h1>
+                </div>
+                <div class="col-xs-0 col-sm-1"></div>
+            </div>
+        </div>
+        <h5 id="last-heading">1 Searched result</h5>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="../Bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://use.fontawesome.com/200e0efce1.js"></script>
+    
+</body>
+</html>
